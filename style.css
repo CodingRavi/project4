@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.html,body,.back{
+ width: 100vw;
+ height: 100vh;
+ background-color: rgb(17, 17, 17);
+}
+
+.backly{
+    display: flex;
+    color: white;
+    height: 100%;
+}
+.backly div{
+    width: 25%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+   
+}
+.content{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+}
+.content>h1{
+    width: 100%;
+    height: 100%;
+    color: rgb(180, 180, 180);
+    opacity: .1;
+    font-size: 300px;
+    position: absolute;
+    text-align: center;
+}
+.content1{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+}
+
+section{
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    width: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    font-size: 20px;
+}
+section a{
+    writing-mode: vertical-rl;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    margin: 10px 0px 60px 0px;
+}
+.logo{
+    font-family: cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.logo>span{
+    font-size: 40px;
+}
+.git{
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.git>a,.git>span{
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.hello{
+    font-size: 70px;
+    padding: 100px 0px;
+}
+.content1>:nth-child(1){
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 10px solid rgb(0, 255, 255);
+    position: absolute;
+    left: 200px;
+    top: 50%;
+}
+.content1>:nth-child(2){
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 7px solid rgb(0, 255, 255);
+    position: absolute;
+    left: 400px;
+    top: 25%;
+}
+.content1>:nth-child(3){
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 7px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 40%;
+    bottom: 25%;
+}
+.content1>:nth-child(4){
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 10px solid rgb(0, 255, 255);
+    position: absolute;
+    right: 30%;
+    top:15%;
+}
+.content1>:nth-child(5){
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 140);
+    position: absolute;
+    right: 25%;
+    top: 30%;
+}
+ article{
+    width: 30px;
+    height: 300px;
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    top: 30%;
+    left: -5px;
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 20px;
+}
